@@ -3,4 +3,4 @@ server:
 
 report:
   tmplPath: D:\\wordreport
-  autoFlowTmpl: nbaNew.ftl
+  autoFlowTmpl: nba1.ftl

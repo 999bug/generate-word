@@ -1382,7 +1382,7 @@
                 <w:r>
                     <w:pict>
                         <w:binData w:name="wordml://${image.picName}">${image.picture}</w:binData>
-                        <v:shape id="${image.id}" o:spid="_x0000_s1026" o:spt="75" alt="" type="#_x0000_t75" <#--style="height:${image.width};width:${image.height};"--> filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
+                        <v:shape id="${image.id}" o:spid="_x0000_s1026" o:spt="75" alt="" type="#_x0000_t75"  filled="f" o:preferrelative="t" stroked="f" coordsize="21600,21600">
                             <v:path/>
                             <v:fill on="f" focussize="0,0"/>
                             <v:stroke on="f"/>
