@@ -16,3 +16,4 @@ http://localhost:10086/drm/report/download，并且携带参数 teamIds
 4、通过查看日志找到日志生成位置
 
 本项目支持批量生成文档
+详细说明见博客 https://blog.csdn.net/qq_40965479/article/details/125446622?spm=1001.2014.3001.5502
