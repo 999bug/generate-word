@@ -48,8 +48,8 @@ public class ReportController {
                     .contentType(MediaType.APPLICATION_OCTET_STREAM)
                     .contentLength(generateWord.getWordReportFile().length())
                     .body(Files.readAllBytes(generateWord.getWordReportFile().toPath()));
-            log.warn("" + generateWord.getWordReportFile());
-            log.warn("" + generateWord.getWordReportFile());
+            log.info("文件位置: {}", generateWord.getWordReportFile());
+            log.info("文件夹所在位置: {}", generateWord.getTmpDirectory());
         } catch (Exception e) {
             log.error(e.getMessage());
             return ResponseEntity.badRequest().body(e.getMessage().getBytes(StandardCharsets.UTF_8));
