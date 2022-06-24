@@ -1,0 +1,6 @@
+server:
+  port: 10086
+
+report:
+  tmplPath: D:\\wordreport
+  autoFlowTmpl: nbaNew.ftl
